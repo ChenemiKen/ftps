@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+}
+#fil {
+    height: 36px; 
+    padding-top: 20px;
+    font-size: 16px; 
+    margin-left: 15px;
+    top: 15px; 
+    color: #595958; 
+    font-weight: 600;
+    
+}
+.lll {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 14px; 
+}
+.lll i {
+    color: dodgerblue;
+}
+
+/* .sidebar a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+
+.sidebar a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+.sidebar a:hover:not(.active) {
+background-color: #555;
+color: white;
+} */
+
+div.content {
+margin-left: 250px;
+/* padding: 1px 16px; */
+/* height: 1000px; */
+}
+.upload_btn_class {
+    display: inline;
+}
+.frontDocs{
+    padding-left: 6%;
+    padding-top:40px
+}
+.frontDocs-inner{
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+.sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+.sidebar a {
+    text-align: center;
+    float: none;
+}
+}
